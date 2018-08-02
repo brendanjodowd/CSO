@@ -4,8 +4,7 @@ Title: Import Data Tables from the CSO Statbank.
 Version: 0.1.0
 Author: Brendan O'Dowd
 Maintainer: Brendan O'Dowd <yourself@somewhere.net>
-Description: This package allows the user to import data tables from the CSO Statbank 
-    using the five character code associated with each table. 
+Description: This package allows the user to import data tables from the CSO Statbank using the five character code associated with each table. 
 License: What license is it under?
 Encoding: UTF-8
 LazyData: true
