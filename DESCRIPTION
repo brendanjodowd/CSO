@@ -4,15 +4,7 @@ Title: Explore and Import CSO Statbank Tables
 Version: 0.1.0
 Author: Brendan O'Dowd
 Maintainer: Brendan O'Dowd <brendanjodowd@gmail.com>
-Title: Imports Data Tables from CSO Statbank.
-Version: 0.1.0
-Author: Brendan O'Dowd
-Maintainer: The package maintainer <yourself@somewhere.net>
->>>>>>> 01435b96e487b2fd8946d99d8bfe05971876af65
 Description: More about what it does (maybe more than one line)
-    Use four spaces when indenting paragraphs within the Description.
 License: Unsure.
 Encoding: UTF-8
 LazyData: true
-LazyData: true 
->>>>>>> 01435b96e487b2fd8946d99d8bfe05971876af65
