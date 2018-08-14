@@ -13,7 +13,7 @@ get_cso(table_name)
 %- maybe also 'usage' for other objects documented here.
 \arguments{
   \item{table_name}{
-A code for a CSO Statbank table. A string of length 5 (3 letters and two digits).
+A code for a CSO Statbank table. A string of length 5.
 }
 }
 \details{
