@@ -7,7 +7,6 @@
 #' \describe{
 #'   \item{Item}{Full name of data table}
 #'   \item{Code}{The 5 character code for this table}
-#'   ...
 #' }
 #' @source \url{https://www.cso.ie/webserviceclient/DatasetListing.aspx}
 "cso_dataset"
