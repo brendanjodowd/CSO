@@ -1,68 +1,169 @@
-Census,2016,https://www.cso.ie/webserviceclient/datasets.aspx?sp=DB_EP&SPtext=2016%20Preliminary%20Results
-,,https://www.cso.ie/webserviceclient/datasets.aspx?sp=DB_EY&SPtext=Summary%20Results%20Part%201
-,,https://www.cso.ie/webserviceclient/datasets.aspx?sp=DB_E1&SPtext=Profile%201%20-%20Housing%20in%20Ireland
-,,https://www.cso.ie/webserviceclient/datasets.aspx?sp=DB_E2&SPtext=Profile%202%20-%20Population%20Distribution%20and%20Movements
-,,https://www.cso.ie/webserviceclient/datasets.aspx?sp=DB_EZ&SPtext=Summary%20Results%20Part%202
-,,https://www.cso.ie/webserviceclient/datasets.aspx?sp=DB_E3&SPtext=Profile%203%20-%20An%20Age%20Profile%20of%20Ireland
-,,https://www.cso.ie/webserviceclient/datasets.aspx?sp=DB_E4&SPtext=Profile%204%20-%20Households%20and%20Families
-,,https://www.cso.ie/webserviceclient/datasets.aspx?sp=DB_E5&SPtext=Profile%205%20-%20Homeless%20Persons%20in%20Ireland
-,,https://www.cso.ie/webserviceclient/datasets.aspx?sp=DB_E6&SPtext=Profile%206%20-%20Commuting%20in%20Ireland
-,,https://www.cso.ie/webserviceclient/datasets.aspx?sp=DB_E7&SPtext=%20Profile%207%20-%20Migration%20and%20Diversity
-,,"https://www.cso.ie/webserviceclient/datasets.aspx?sp=DB_E8&SPtext=Profile%208%20-%20Irish%20Travellers,%20Ethnicity%20and%20Religion"
-,,"https://www.cso.ie/webserviceclient/datasets.aspx?sp=DB_E9&SPtext=Profile%209%20-%20Health,%20Disability%20and%20Carers"
-,,https://www.cso.ie/webserviceclient/datasets.aspx?sp=DB_E10&SPtext=Profile%2010%20-%20Education%20and%20Skills%20and%20the%20Irish%20Language
-,,"https://www.cso.ie/webserviceclient/datasets.aspx?sp=DB_E11&SPtext=Profile%2011%20-%20Employment,%20Occupations%20and%20Industry"
-,2011,https://www.cso.ie/webserviceclient/datasets.aspx?sp=DB_PD&SPtext=This%20is%20Ireland%20Part%201
-,,https://www.cso.ie/webserviceclient/datasets.aspx?sp=DB_PSER&SPtext=This%20is%20Ireland%20Part%202
-,,https://www.cso.ie/webserviceclient/datasets.aspx?sp=DB_PR1&SPtext=Profile%201%20-%20Geography
-,,https://www.cso.ie/webserviceclient/datasets.aspx?sp=DB_PR2&SPtext=Profile%202%20-%20Ages
-,,https://www.cso.ie/webserviceclient/datasets.aspx?sp=DB_PR3&SPtext=Profile%203%20-%20At%20Work
-,,https://www.cso.ie/webserviceclient/datasets.aspx?sp=DB_PR4&SPtext=Profile%204%20-%20The%20Roof%20Over%20Our%20Heads%20-%20Housing%20in%20Ireland
-,,https://www.cso.ie/webserviceclient/datasets.aspx?sp=DB_PR5&SPtext=Profile%205%20-%20Households%20and%20Families%20-%20Living
-,,https://www.cso.ie/webserviceclient/datasets.aspx?sp=DB_PR6&SPtext=Profile%206%20-%20Migration%20and%20Diversity%20in%20Ireland%20-%20A%20profile%20of%20diversity%20in%20Ireland
-,,https://www.cso.ie/webserviceclient/datasets.aspx?sp=DB_PR7&SPtext=Profile%207%20-%20Religion%20Ethnicity%20and%20Irish%20Travellers
-,,https://www.cso.ie/webserviceclient/datasets.aspx?sp=DB_PR8&SPtext=Profile%208%20-%20Our%20Bill%20of%20Health
-,,https://www.cso.ie/webserviceclient/datasets.aspx?sp=DB_PR9&SPtext=Profile%209%20-%20What%20we%20Know%20-%20A%20study%20of%20Education%20and%20Skills%20in%20Ireland
-,,https://www.cso.ie/webserviceclient/datasets.aspx?sp=DB_PR10&SPtext=Profile%2010%20-%20Door%20to%20Door%20-%20Commuting%20in%20Ireland
-,,https://www.cso.ie/webserviceclient/datasets.aspx?sp=DB_CDP&SPtext=Preliminary%20Results
-,2006,https://www.cso.ie/webserviceclient/datasets.aspx?sp=DB_CDR&SPtext=Principal%20Demographic%20Results
-,,https://www.cso.ie/webserviceclient/datasets.aspx?sp=DB_CSR&SPtext=Principal%20Socio-economic%20Results
-,,https://www.cso.ie/webserviceclient/datasets.aspx?sp=DB_C01&SPtext=Volume%201%20-%20Population%20Classified%20by%20Area
-,,https://www.cso.ie/webserviceclient/datasets.aspx?sp=DB_C02&SPtext=Volume%202%20-%20Ages%20and%20Marital%20Status
-,,"https://www.cso.ie/webserviceclient/datasets.aspx?sp=DB_C03&SPtext=Volume%203%20-%20Household%20Composition,%20Family%20Units%20and%20Fertility"
-,,"https://www.cso.ie/webserviceclient/datasets.aspx?sp=DB_C04&SPtext=Volume%204%20-%20Usual%20Residence,%20Migration,%20Birthplaces%20and%20Nationalities"
-,,https://www.cso.ie/webserviceclient/datasets.aspx?sp=DB_C05&SPtext=Volume%205%20-%20Ethnic%20or%20Cultural%20Background%20including%20the%20Irish%20Traveller%20Community
-,,https://www.cso.ie/webserviceclient/datasets.aspx?sp=DB_C06&SPtext=Volume%206%20-%20Housing
-,,https://www.cso.ie/webserviceclient/datasets.aspx?sp=DB_C07&SPtext=Volume%207%20-%20Principal%20Economic%20Status%20and%20Industries
-,,https://www.cso.ie/webserviceclient/datasets.aspx?sp=DB_C08&SPtext=Volume%208%20-%20Occupations
-,,https://www.cso.ie/webserviceclient/datasets.aspx?sp=DB_C09&SPtext=Volume%209%20-%20Irish%20Language
-,,https://www.cso.ie/webserviceclient/datasets.aspx?sp=DB_C10&SPtext=Volume%2010%20-%20Education%20and%20Qualifications
-,,"https://www.cso.ie/webserviceclient/datasets.aspx?sp=DB_C11&SPtext=Volume%2011%20-%20Disability,%20Carers%20and%20Voluntary%20Activities"
-,,"https://www.cso.ie/webserviceclient/datasets.aspx?sp=DB_C12&SPtext=Volume%2012%20-%20Travel%20to%20Work,%20School%20and%20College"
-,,https://www.cso.ie/webserviceclient/datasets.aspx?sp=DB_C13&SPtext=Volume%2013%20-%20Religion
-,2002,https://www.cso.ie/webserviceclient/datasets.aspx?sp=DB_BDR&SPtext=Principal%20Demographic%20Results%202002
-,,https://www.cso.ie/webserviceclient/datasets.aspx?sp=DB_BSR&SPtext=Principal%20Socio-economic%20Results%202002
-,,https://www.cso.ie/webserviceclient/datasets.aspx?sp=DB_B01&SPtext=Volume%201%20-%20Population%20Classified%20by%20Area%202002
-,,https://www.cso.ie/webserviceclient/datasets.aspx?sp=DB_B02&SPtext=Volume%202%20-%20Ages%20and%20Marital%20Status%202002
-,,"https://www.cso.ie/webserviceclient/datasets.aspx?sp=DB_B03&SPtext=Volume%203%20-%20Household%20Composition,%20Family%20Units%20and%20Fertility%202002"
-,,"https://www.cso.ie/webserviceclient/datasets.aspx?sp=DB_B04&SPtext=Volume%204%20-%20Usual%20Residence,%20Migration,%20Birthplaces%20and%20Nationalities%202002"
-,,https://www.cso.ie/webserviceclient/datasets.aspx?sp=DB_B05&SPtext=Volume%205%20-%20Principal%20Economic%20Status%20and%20Industries%202002
-,,https://www.cso.ie/webserviceclient/datasets.aspx?sp=DB_B06&SPtext=Volume%206%20-%20Occupations%202002
-,,https://www.cso.ie/webserviceclient/datasets.aspx?sp=DB_B07&SPtext=Volume%207%20-%20Education%20and%20Qualifications%202002
-,,https://www.cso.ie/webserviceclient/datasets.aspx?sp=DB_B08&SPtext=Volume%208%20-%20Irish%20Traveller%20Community%202002
-,,"https://www.cso.ie/webserviceclient/datasets.aspx?sp=DB_B09&SPtext=Volume%209%20-%20Travel%20to%20Work,%20School%20and%20College%202002"
-,,https://www.cso.ie/webserviceclient/datasets.aspx?sp=DB_B10&SPtext=Volume%2010%20-%20Disability%20and%20Carers%202002
-,,https://www.cso.ie/webserviceclient/datasets.aspx?sp=DB_B11&SPtext=Volume%2011%20-%20Irish%20Language%202002
-,,https://www.cso.ie/webserviceclient/datasets.aspx?sp=DB_B12&SPtext=Volume%2012%20-%20Religion%202002
-,,https://www.cso.ie/webserviceclient/datasets.aspx?sp=DB_B13&SPtext=Volume%2013%20-%20Housing%202002
-Annual Population Estimates,X,https://www.cso.ie/webserviceclient/datasets.aspx?sp=DB_PE&SPtext=Annual%20Population%20Estimates
-Census Time Series,X,https://www.cso.ie/webserviceclient/datasets.aspx?sp=DB_CN&SPtext=Census%20Time%20Series
-Births Deaths and Marriages,Births Deaths and Marriages,https://www.cso.ie/webserviceclient/datasets.aspx?sp=DB_VS&SPtext=Births%20Deaths%20and%20Marriages
-Crime and Justice,Crime and Justice,https://www.cso.ie/webserviceclient/datasets.aspx?sp=DB_CJ&SPtext=Crime%20and%20Justice
-Social Conditions,Survey on Social and Living Conditions (SILC),https://www.cso.ie/webserviceclient/datasets.aspx?sp=DB_SI&SPtext=Survey%20on%20Income%20and%20Living%20Conditions%20(SILC)
-Housing and Households,Planning Permissions,https://www.cso.ie/webserviceclient/datasets.aspx?sp=DB_BH&SPtext=Planning%20Permissions
-,Household Travel Survey,https://www.cso.ie/webserviceclient/datasets.aspx?sp=DB_HT&SPtext=Household%20Travel%20Survey
-,Household Budget Survey 2015 to 2016,https://www.cso.ie/webserviceclient/datasets.aspx?sp=DB_HBS&SPtext=Household%20Budget%20Survey%202015%20to%202016
-,New Dwelling Completions,https://www.cso.ie/webserviceclient/datasets.aspx?sp=DB_NDC&SPtext=New%20Dwelling%20Completions
-Foreign National Activity,X,https://www.cso.ie/webserviceclient/datasets.aspx?sp=DB_FN&SPtext=Foreign%20National%20Activity
-Information Society,"ICT Usage by Enterprises, Households and Persons","https://www.cso.ie/webserviceclient/datasets.aspx?sp=DB_IC&SPtext=ICT%20Usage%20by%20Enterprises,%20Households%20and%20Persons"
+Census,Census,2016,https://www.cso.ie/webserviceclient/datasets.aspx?sp=DB_EP&SPtext=2016%20Preliminary%20Results
+,,,https://www.cso.ie/webserviceclient/datasets.aspx?sp=DB_EY&SPtext=Summary%20Results%20Part%201
+,,,https://www.cso.ie/webserviceclient/datasets.aspx?sp=DB_E1&SPtext=Profile%201%20-%20Housing%20in%20Ireland
+,,,https://www.cso.ie/webserviceclient/datasets.aspx?sp=DB_E2&SPtext=Profile%202%20-%20Population%20Distribution%20and%20Movements
+,,,https://www.cso.ie/webserviceclient/datasets.aspx?sp=DB_EZ&SPtext=Summary%20Results%20Part%202
+,,,https://www.cso.ie/webserviceclient/datasets.aspx?sp=DB_E3&SPtext=Profile%203%20-%20An%20Age%20Profile%20of%20Ireland
+,,,https://www.cso.ie/webserviceclient/datasets.aspx?sp=DB_E4&SPtext=Profile%204%20-%20Households%20and%20Families
+,,,https://www.cso.ie/webserviceclient/datasets.aspx?sp=DB_E5&SPtext=Profile%205%20-%20Homeless%20Persons%20in%20Ireland
+,,,https://www.cso.ie/webserviceclient/datasets.aspx?sp=DB_E6&SPtext=Profile%206%20-%20Commuting%20in%20Ireland
+,,,https://www.cso.ie/webserviceclient/datasets.aspx?sp=DB_E7&SPtext=%20Profile%207%20-%20Migration%20and%20Diversity
+,,,"https://www.cso.ie/webserviceclient/datasets.aspx?sp=DB_E8&SPtext=Profile%208%20-%20Irish%20Travellers,%20Ethnicity%20and%20Religion"
+,,,"https://www.cso.ie/webserviceclient/datasets.aspx?sp=DB_E9&SPtext=Profile%209%20-%20Health,%20Disability%20and%20Carers"
+,,,https://www.cso.ie/webserviceclient/datasets.aspx?sp=DB_E10&SPtext=Profile%2010%20-%20Education%20and%20Skills%20and%20the%20Irish%20Language
+,,,"https://www.cso.ie/webserviceclient/datasets.aspx?sp=DB_E11&SPtext=Profile%2011%20-%20Employment,%20Occupations%20and%20Industry"
+,,2011,https://www.cso.ie/webserviceclient/datasets.aspx?sp=DB_PD&SPtext=This%20is%20Ireland%20Part%201
+,,,https://www.cso.ie/webserviceclient/datasets.aspx?sp=DB_PSER&SPtext=This%20is%20Ireland%20Part%202
+,,,https://www.cso.ie/webserviceclient/datasets.aspx?sp=DB_PR1&SPtext=Profile%201%20-%20Geography
+,,,https://www.cso.ie/webserviceclient/datasets.aspx?sp=DB_PR2&SPtext=Profile%202%20-%20Ages
+,,,https://www.cso.ie/webserviceclient/datasets.aspx?sp=DB_PR3&SPtext=Profile%203%20-%20At%20Work
+,,,https://www.cso.ie/webserviceclient/datasets.aspx?sp=DB_PR4&SPtext=Profile%204%20-%20The%20Roof%20Over%20Our%20Heads%20-%20Housing%20in%20Ireland
+,,,https://www.cso.ie/webserviceclient/datasets.aspx?sp=DB_PR5&SPtext=Profile%205%20-%20Households%20and%20Families%20-%20Living
+,,,https://www.cso.ie/webserviceclient/datasets.aspx?sp=DB_PR6&SPtext=Profile%206%20-%20Migration%20and%20Diversity%20in%20Ireland%20-%20A%20profile%20of%20diversity%20in%20Ireland
+,,,https://www.cso.ie/webserviceclient/datasets.aspx?sp=DB_PR7&SPtext=Profile%207%20-%20Religion%20Ethnicity%20and%20Irish%20Travellers
+,,,https://www.cso.ie/webserviceclient/datasets.aspx?sp=DB_PR8&SPtext=Profile%208%20-%20Our%20Bill%20of%20Health
+,,,https://www.cso.ie/webserviceclient/datasets.aspx?sp=DB_PR9&SPtext=Profile%209%20-%20What%20we%20Know%20-%20A%20study%20of%20Education%20and%20Skills%20in%20Ireland
+,,,https://www.cso.ie/webserviceclient/datasets.aspx?sp=DB_PR10&SPtext=Profile%2010%20-%20Door%20to%20Door%20-%20Commuting%20in%20Ireland
+,,,https://www.cso.ie/webserviceclient/datasets.aspx?sp=DB_CDP&SPtext=Preliminary%20Results
+,,2006,https://www.cso.ie/webserviceclient/datasets.aspx?sp=DB_CDR&SPtext=Principal%20Demographic%20Results
+,,,https://www.cso.ie/webserviceclient/datasets.aspx?sp=DB_CSR&SPtext=Principal%20Socio-economic%20Results
+,,,https://www.cso.ie/webserviceclient/datasets.aspx?sp=DB_C01&SPtext=Volume%201%20-%20Population%20Classified%20by%20Area
+,,,https://www.cso.ie/webserviceclient/datasets.aspx?sp=DB_C02&SPtext=Volume%202%20-%20Ages%20and%20Marital%20Status
+,,,"https://www.cso.ie/webserviceclient/datasets.aspx?sp=DB_C03&SPtext=Volume%203%20-%20Household%20Composition,%20Family%20Units%20and%20Fertility"
+,,,"https://www.cso.ie/webserviceclient/datasets.aspx?sp=DB_C04&SPtext=Volume%204%20-%20Usual%20Residence,%20Migration,%20Birthplaces%20and%20Nationalities"
+,,,https://www.cso.ie/webserviceclient/datasets.aspx?sp=DB_C05&SPtext=Volume%205%20-%20Ethnic%20or%20Cultural%20Background%20including%20the%20Irish%20Traveller%20Community
+,,,https://www.cso.ie/webserviceclient/datasets.aspx?sp=DB_C06&SPtext=Volume%206%20-%20Housing
+,,,https://www.cso.ie/webserviceclient/datasets.aspx?sp=DB_C07&SPtext=Volume%207%20-%20Principal%20Economic%20Status%20and%20Industries
+,,,https://www.cso.ie/webserviceclient/datasets.aspx?sp=DB_C08&SPtext=Volume%208%20-%20Occupations
+,,,https://www.cso.ie/webserviceclient/datasets.aspx?sp=DB_C09&SPtext=Volume%209%20-%20Irish%20Language
+,,,https://www.cso.ie/webserviceclient/datasets.aspx?sp=DB_C10&SPtext=Volume%2010%20-%20Education%20and%20Qualifications
+,,,"https://www.cso.ie/webserviceclient/datasets.aspx?sp=DB_C11&SPtext=Volume%2011%20-%20Disability,%20Carers%20and%20Voluntary%20Activities"
+,,,"https://www.cso.ie/webserviceclient/datasets.aspx?sp=DB_C12&SPtext=Volume%2012%20-%20Travel%20to%20Work,%20School%20and%20College"
+,,,https://www.cso.ie/webserviceclient/datasets.aspx?sp=DB_C13&SPtext=Volume%2013%20-%20Religion
+,,2002,https://www.cso.ie/webserviceclient/datasets.aspx?sp=DB_BDR&SPtext=Principal%20Demographic%20Results%202002
+,,,https://www.cso.ie/webserviceclient/datasets.aspx?sp=DB_BSR&SPtext=Principal%20Socio-economic%20Results%202002
+,,,https://www.cso.ie/webserviceclient/datasets.aspx?sp=DB_B01&SPtext=Volume%201%20-%20Population%20Classified%20by%20Area%202002
+,,,https://www.cso.ie/webserviceclient/datasets.aspx?sp=DB_B02&SPtext=Volume%202%20-%20Ages%20and%20Marital%20Status%202002
+,,,"https://www.cso.ie/webserviceclient/datasets.aspx?sp=DB_B03&SPtext=Volume%203%20-%20Household%20Composition,%20Family%20Units%20and%20Fertility%202002"
+,,,"https://www.cso.ie/webserviceclient/datasets.aspx?sp=DB_B04&SPtext=Volume%204%20-%20Usual%20Residence,%20Migration,%20Birthplaces%20and%20Nationalities%202002"
+,,,https://www.cso.ie/webserviceclient/datasets.aspx?sp=DB_B05&SPtext=Volume%205%20-%20Principal%20Economic%20Status%20and%20Industries%202002
+,,,https://www.cso.ie/webserviceclient/datasets.aspx?sp=DB_B06&SPtext=Volume%206%20-%20Occupations%202002
+,,,https://www.cso.ie/webserviceclient/datasets.aspx?sp=DB_B07&SPtext=Volume%207%20-%20Education%20and%20Qualifications%202002
+,,,https://www.cso.ie/webserviceclient/datasets.aspx?sp=DB_B08&SPtext=Volume%208%20-%20Irish%20Traveller%20Community%202002
+,,,"https://www.cso.ie/webserviceclient/datasets.aspx?sp=DB_B09&SPtext=Volume%209%20-%20Travel%20to%20Work,%20School%20and%20College%202002"
+,,,https://www.cso.ie/webserviceclient/datasets.aspx?sp=DB_B10&SPtext=Volume%2010%20-%20Disability%20and%20Carers%202002
+,,,https://www.cso.ie/webserviceclient/datasets.aspx?sp=DB_B11&SPtext=Volume%2011%20-%20Irish%20Language%202002
+,,,https://www.cso.ie/webserviceclient/datasets.aspx?sp=DB_B12&SPtext=Volume%2012%20-%20Religion%202002
+,,,https://www.cso.ie/webserviceclient/datasets.aspx?sp=DB_B13&SPtext=Volume%2013%20-%20Housing%202002
+,Annual Population Estimates,X,https://www.cso.ie/webserviceclient/datasets.aspx?sp=DB_PE&SPtext=Annual%20Population%20Estimates
+,Census Time Series,X,https://www.cso.ie/webserviceclient/datasets.aspx?sp=DB_CN&SPtext=Census%20Time%20Series
+,Births Deaths and Marriages,Births Deaths and Marriages,https://www.cso.ie/webserviceclient/datasets.aspx?sp=DB_VS&SPtext=Births%20Deaths%20and%20Marriages
+,Crime and Justice,Crime and Justice,https://www.cso.ie/webserviceclient/datasets.aspx?sp=DB_CJ&SPtext=Crime%20and%20Justice
+,Social Conditions,Survey on Social and Living Conditions (SILC),https://www.cso.ie/webserviceclient/datasets.aspx?sp=DB_SI&SPtext=Survey%20on%20Income%20and%20Living%20Conditions%20(SILC)
+,Housing and Households,Planning Permissions,https://www.cso.ie/webserviceclient/datasets.aspx?sp=DB_BH&SPtext=Planning%20Permissions
+,,Household Travel Survey,https://www.cso.ie/webserviceclient/datasets.aspx?sp=DB_HT&SPtext=Household%20Travel%20Survey
+,,Household Budget Survey 2015 to 2016,https://www.cso.ie/webserviceclient/datasets.aspx?sp=DB_HBS&SPtext=Household%20Budget%20Survey%202015%20to%202016
+,,New Dwelling Completions,https://www.cso.ie/webserviceclient/datasets.aspx?sp=DB_NDC&SPtext=New%20Dwelling%20Completions
+,Foreign National Activity,X,https://www.cso.ie/webserviceclient/datasets.aspx?sp=DB_FN&SPtext=Foreign%20National%20Activity
+,Information Society,"ICT Usage by Enterprises, Households and Persons","https://www.cso.ie/webserviceclient/datasets.aspx?sp=DB_IC&SPtext=ICT%20Usage%20by%20Enterprises,%20Households%20and%20Persons"
+Labour Market and Earnings,Labour Market,Monthly Unemployment,https://www.cso.ie/webserviceclient/datasets.aspx?sp=DB_MU&SPtext=Monthly%20Unemployment
+,,Labour Force Survey Quarterly Series,https://www.cso.ie/webserviceclient/datasets.aspx?sp=DB_QLF&SPtext=Labour%20Force%20Survey%20Quarterly%20Series
+,,Live Register,https://www.cso.ie/webserviceclient/datasets.aspx?sp=DB_LR&SPtext=Live%20Register
+,,Live Register Detailed Flow Analysis,https://www.cso.ie/webserviceclient/datasets.aspx?sp=DB_LA&SPtext=Live%20Register%20Detailed%20Flow%20Analysis
+,,Industrial Disputes,https://www.cso.ie/webserviceclient/datasets.aspx?sp=DB_ID&SPtext=Industrial%20Disputes
+,,Quarterly National Household Survey - Main Results,https://www.cso.ie/webserviceclient/datasets.aspx?sp=DB_QN&SPtext=Quarterly%20National%20Household%20Survey
+,,Financial Business Sector,https://www.cso.ie/webserviceclient/datasets.aspx?sp=DB_BI&SPtext=Financial%20Business%20Sector
+,,Labuor Force Survey 1988 to 1997,https://www.cso.ie/webserviceclient/datasets.aspx?sp=DB_LF&SPtext=Labour%20Force%20Survey%201988%20to%201997
+,,Public Sector,https://www.cso.ie/webserviceclient/datasets.aspx?sp=DB_PS&SPtext=Public%20Sector
+,,Earnings Employment and Productivity in Industry,https://www.cso.ie/webserviceclient/datasets.aspx?sp=DB_QI&SPtext=Earnings%20Employment%20and%20Productivity%20in%20Industry
+,,Retirement Planning,https://www.cso.ie/webserviceclient/datasets.aspx?sp=DB_RP&SPtext=Retirement%20Planning
+,Earnings,EHECS Earnings Hours and Employment Costs Survey,"https://www.cso.ie/webserviceclient/datasets.aspx?sp=DB_EH&SPtext=EHECS%20-%20Earnings,%20Hours%20and%20Employment%20Costs%20Survey"
+,,National Employment Survey,https://www.cso.ie/webserviceclient/datasets.aspx?sp=DB_NS&SPtext=National%20Employment%20Survey
+,,Financial Business Sector,https://www.cso.ie/webserviceclient/datasets.aspx?sp=DB_BI&SPtext=Financial%20Business%20Sector
+,,Public Sector,https://www.cso.ie/webserviceclient/datasets.aspx?sp=DB_PS&SPtext=Public%20Sector
+,,Earnings in Distribution and Business Services,https://www.cso.ie/webserviceclient/datasets.aspx?sp=DB_QE&SPtext=Earnings%20in%20Distribution%20and%20Business%20Services
+,,Earnings Employment and Productivity in Industry,https://www.cso.ie/webserviceclient/datasets.aspx?sp=DB_QI&SPtext=Earnings%20Employment%20and%20Productivity%20in%20Industry
+Economy,Prices,Agricultural Input and Output Absolute Prices,https://www.cso.ie/webserviceclient/datasets.aspx?sp=DB_AJ&SPtext=Agricultural%20Input%20and%20Output%20Absolute%20Prices
+,,Agricultural Input and Output Price Indices,https://www.cso.ie/webserviceclient/datasets.aspx?sp=DB_AH&SPtext=Agricultural%20Input%20and%20Output%20Price%20Indices
+,,Consumer Prices,https://www.cso.ie/webserviceclient/datasets.aspx?sp=DB_CP&SPtext=Consumer%20Prices
+,,House Prices,https://www.cso.ie/webserviceclient/datasets.aspx?sp=DB_HP&SPtext=House%20Prices
+,,Wholesale Prices,https://www.cso.ie/webserviceclient/datasets.aspx?sp=DB_WP&SPtext=Wholesale%20Prices
+,National Accounts,National Accounts Quarterly,https://www.cso.ie/webserviceclient/datasets.aspx?sp=DB_NQ&SPtext=National%20Accounts%20Quarterly
+,,National Income and Expenditure Annual Results 2016,https://www.cso.ie/webserviceclient/datasets.aspx?sp=DB_NA16&SPtext=National%20Income%20and%20Expenditure%20Annual%20Results%202016
+,,Institutional Sectors Accounts - Non-Financial,https://www.cso.ie/webserviceclient/datasets.aspx?sp=DB_IS&SPtext=Institutional%20Sector%20Accounts:%20Non-Financial
+,,Institutional Sectors Accounts - Financial,https://www.cso.ie/webserviceclient/datasets.aspx?sp=DB_IF&SPtext=Institutional%20Sector%20Accounts:%20Financial
+,,County Incomes and Regional Accounts,https://www.cso.ie/webserviceclient/datasets.aspx?sp=DB_RA&SPtext=County%20Incomes%20and%20Regional%20Accounts
+,,Supply and Use and Input-Output Tables,https://www.cso.ie/webserviceclient/datasets.aspx?sp=DB_NI&SPtext=Supply%20and%20Use%20and%20Input%20Output%20Tables
+,,Output and Value Added,https://www.cso.ie/webserviceclient/datasets.aspx?sp=DB_OV&SPtext=Output%20and%20Value%20Added
+,,Capital Stock of Fixed Assets,https://www.cso.ie/webserviceclient/datasets.aspx?sp=DB_CS&SPtext=Capital%20Stock%20of%20Fixed%20Assets
+,,Government Finance Statistics,https://www.cso.ie/webserviceclient/datasets.aspx?sp=DB_GF&SPtext=Government%20Finance%20Statistics
+,,National Accounts Historical Series 1970-1995,https://www.cso.ie/webserviceclient/datasets.aspx?sp=DB_NAH&SPtext=National%20Accounts%20Historical%20Series%201970%20to%201995
+,,National Accounts Historical Input-Output Tables,https://www.cso.ie/webserviceclient/datasets.aspx?sp=DB_IO&SPtext=National%20Accounts%20Historical%20Input%20Output%20Tables
+,,Balance of Payments - Annual and Quarterly Series,https://www.cso.ie/webserviceclient/datasets.aspx?sp=DB_BP&SPtext=BOP%20-%20Annual%20and%20Quarterly%20Series
+,,External Trade,https://www.cso.ie/webserviceclient/datasets.aspx?sp=DB_TS&SPtext=External%20Trade
+,,Financial Indicators,https://www.cso.ie/webserviceclient/datasets.aspx?sp=DB_FI&SPtext=Financial%20Indicators
+Environment and Climate,Environment,Environment,https://www.cso.ie/webserviceclient/datasets.aspx?sp=DB_EA&SPtext=Environment
+,Climate,Climate,https://www.cso.ie/webserviceclient/datasets.aspx?sp=DB_MT&SPtext=Climate
+Business Sectors,Multisectoral,Access to Finance,https://www.cso.ie/webserviceclient/datasets.aspx?sp=DB_SF&SPtext=Access%20to%20Finance
+,,International Sourcing Survey 2009-2011,https://www.cso.ie/webserviceclient/datasets.aspx?sp=DB_ISS&SPtext=International%20Sourcing%20Survey%202009-2011
+,,Structural Business Statistics Provisional Data,https://www.cso.ie/webserviceclient/datasets.aspx?sp=DB_IP&SPtext=Structural%20Business%20Statistics%20Provisional%20Data
+,,Outward Foreign Affiliates Statistics,https://www.cso.ie/webserviceclient/datasets.aspx?sp=DB_FA&SPtext=Outward%20Foreign%20Affiliates%20Statistics
+,,Business Demography,https://www.cso.ie/webserviceclient/datasets.aspx?sp=DB_BR&SPtext=Business%20Demography
+,,Job Churn,https://www.cso.ie/webserviceclient/datasets.aspx?sp=DB_JC&SPtext=Job%20Churn
+,,Response Burden Barometer,https://www.cso.ie/webserviceclient/datasets.aspx?sp=DB_RB&SPtext=Response%20Burden%20Barometer
+,Agriculture and Fishing,Livestock and Farm Numbers,https://www.cso.ie/webserviceclient/datasets.aspx?sp=DB_AA&SPtext=Agriculture%20Livestock%20and%20Farm%20Numbers
+,,Supply Balances,https://www.cso.ie/webserviceclient/datasets.aspx?sp=DB_AB&SPtext=Agriculture%20Supply%20Balances
+,,Livestock Slaughterings,https://www.cso.ie/webserviceclient/datasets.aspx?sp=DB_AD&SPtext=Agriculture%20Livestock%20Slaughterings
+,,Regional Accounts,https://www.cso.ie/webserviceclient/datasets.aspx?sp=DB_AC&SPtext=Agriculture%20Regional%20Accounts
+,,Agricultural Output Input and Income,"https://www.cso.ie/webserviceclient/datasets.aspx?sp=DB_AE&SPtext=Agricultural%20Output,%20Input%20and%20Income"
+,,Agricultural Input and Output Price Indices,https://www.cso.ie/webserviceclient/datasets.aspx?sp=DB_AH&SPtext=Agricultural%20Input%20and%20Output%20Price%20Indices
+,,Agricultural Input and Output Absolute Prices,https://www.cso.ie/webserviceclient/datasets.aspx?sp=DB_AJ&SPtext=Agricultural%20Input%20and%20Output%20Absolute%20Prices
+,,Milk Production,https://www.cso.ie/webserviceclient/datasets.aspx?sp=DB_AK&SPtext=Agriculture%20Milk%20Production
+,,Agriculture Area Used and Crop Production,https://www.cso.ie/webserviceclient/datasets.aspx?sp=DB_AQ&SPtext=Agriculture%20Area%20Used%20and%20Crop%20Production
+,,Land Sales,https://www.cso.ie/webserviceclient/datasets.aspx?sp=DB_AR&SPtext=Agriculture%20Land%20Sales
+,,Agriculture Labour and Size of Holdings,https://www.cso.ie/webserviceclient/datasets.aspx?sp=DB_AL&SPtext=Agriculture%20Labour%20and%20Size%20of%20Holdings
+,,Farm Structure Survey,https://www.cso.ie/webserviceclient/datasets.aspx?sp=DB_FSS&SPtext=Farm%20Structure%20Survey
+,,Fishing Industry Production and Other Characteristics,https://www.cso.ie/webserviceclient/datasets.aspx?sp=DB_AT&SPtext=Fishing%20Industry%20Production%20and%20Other%20Characteristics
+,,External Trade in Fishing Industry,https://www.cso.ie/webserviceclient/datasets.aspx?sp=DB_AU&SPtext=External%20Trade%20in%20Fishing%20Industry
+,Industry,Census of Industrial Production,https://www.cso.ie/webserviceclient/datasets.aspx?sp=DB_AI&SPtext=Census%20of%20Industrial%20Production
+,,Industrial Production Volume and Turnover Indices,https://www.cso.ie/webserviceclient/datasets.aspx?sp=DB_MI&SPtext=Industrial%20Production%20Volume%20and%20Turnover%20Indices
+,,Capital Disposals and Acquisitions in Industry,https://www.cso.ie/webserviceclient/datasets.aspx?sp=DB_QD&SPtext=Capital%20Disposals%20and%20Acquisitions%20in%20Industry
+,,Earnings Employment and Productivity in Industry,https://www.cso.ie/webserviceclient/datasets.aspx?sp=DB_QI&SPtext=Earnings%20Employment%20and%20Productivity%20in%20Industry
+,,Industrial Stocks,https://www.cso.ie/webserviceclient/datasets.aspx?sp=DB_QS&SPtext=Industrial%20Stocks
+,Construction,Enterprise Statistics on Construction,https://www.cso.ie/webserviceclient/datasets.aspx?sp=DB_BA&SPtext=Annual%20Enterprise%20Statistics%20on%20Building%20and%20Construction
+,,Planning Permissions,https://www.cso.ie/webserviceclient/datasets.aspx?sp=DB_BH&SPtext=Planning%20Permissions
+,,Production in Building and Construction Index,https://www.cso.ie/webserviceclient/datasets.aspx?sp=DB_BE&SPtext=Production%20in%20Building%20and%20Construction%20Index
+,,Earnings and Hours Worked in Construction,https://www.cso.ie/webserviceclient/datasets.aspx?sp=DB_BD&SPtext=Earnings%20and%20Hours%20Worked%20in%20Construction
+,,Index of Employment in Construction,https://www.cso.ie/webserviceclient/datasets.aspx?sp=DB_BB&SPtext=Index%20of%20Employment%20in%20Construction
+,,Quantity Surveyors Inquiry 1987-1998,https://www.cso.ie/webserviceclient/datasets.aspx?sp=DB_BF&SPtext=Quantity%20Surveyors%20Inquiry%201987%20to%201998
+,,Cement Sales and Imports 1977-1996,https://www.cso.ie/webserviceclient/datasets.aspx?sp=DB_BG&SPtext=Cement%20Sales%20and%20Imports%20(1977-1996)
+,Services,Enterprise Statistics on Financial Sector,https://www.cso.ie/webserviceclient/datasets.aspx?sp=DB_IB&SPtext=Enterprise%20Statistics%20on%20Financial%20Sector
+,,Enterprise Statistics on Distribution and Services,https://www.cso.ie/webserviceclient/datasets.aspx?sp=DB_AN&SPtext=Enterprise%20Statistics%20on%20Distribution%20and%20Services
+,,Retail Sales - Annual and Monthly Series,https://www.cso.ie/webserviceclient/datasets.aspx?sp=DB_RS&SPtext=Retail%20Sales%20-%20Annual%20and%20Monthly%20Series
+,,Services Index,https://www.cso.ie/webserviceclient/datasets.aspx?sp=DB_MS&SPtext=Services%20Index
+,,Earnings in Distribution and Business Services,https://www.cso.ie/webserviceclient/datasets.aspx?sp=DB_QE&SPtext=Earnings%20in%20Distribution%20and%20Business%20Services
+,Transport,Maritime Statistics,https://www.cso.ie/webserviceclient/datasets.aspx?sp=DB_TB&SPtext=Maritime%20Statistics
+,,Rail Statistics,https://www.cso.ie/webserviceclient/datasets.aspx?sp=DB_TC&SPtext=Rail%20Statistics
+,,Road Freight Statistics,https://www.cso.ie/webserviceclient/datasets.aspx?sp=DB_TF&SPtext=Road%20Freight%20Statistics
+,,Road Traffic Volumes,https://www.cso.ie/webserviceclient/datasets.aspx?sp=DB_TH&SPtext=Road%20Traffic%20Volumes
+,,Vehicle Registration Statistics - Annual and Monthly Series,https://www.cso.ie/webserviceclient/datasets.aspx?sp=DB_TD&SPtext=Vehicle%20Registration%20Statistics%20-%20Annual%20and%20Monthly%20Series
+,,Vehicle Licensing Statistics - Annual and Monthly Series,https://www.cso.ie/webserviceclient/datasets.aspx?sp=DB_TE&SPtext=Vehicle%20Licensing%20Statistics%20-%20Annual%20and%20Monthly%20Series
+,,Aviation Statistics,https://www.cso.ie/webserviceclient/datasets.aspx?sp=DB_TA&SPtext=Aviation%20Statistics
+,Tourism and Travel,Tourism and Travel - Annual and Quarterly Series,https://www.cso.ie/webserviceclient/datasets.aspx?sp=DB_TM&SPtext=Tourism%20and%20Travel%20-%20Annual%20and%20Quarterly%20Series
+,,Overseas Travel,https://www.cso.ie/webserviceclient/datasets.aspx?sp=DB_TM&SPtext=Overseas%20Travel
+,,Household Travel Survey,https://www.cso.ie/webserviceclient/datasets.aspx?sp=DB_HT&SPtext=Household%20Travel%20Survey
+,,Passenger Movement and Airport Pairings,https://www.cso.ie/webserviceclient/datasets.aspx?sp=DB_CT&SPtext=%20Passenger%20Movement%20and%20Airport%20Pairings
+,Science and Technology,Business Expenditure on Research and Development,https://www.cso.ie/webserviceclient/datasets.aspx?sp=DB_BS&SPtext=Business%20Expenditure%20on%20Research%20and%20Development
+,,Innovation in Irish Enterprises - All Sectors,https://www.cso.ie/webserviceclient/datasets.aspx?sp=DB_CI&SPtext=Innovation%20in%20Irish%20Enterprises%20-%20All%20Sectors
+Public Sector Statistics Network,Public Sector Statistics Network,Department of Education and Skills,https://www.cso.ie/webserviceclient/datasets.aspx?sp=DB_ED&SPtext=Department%20of%20Education%20and%20Skills
+,,Irish Maritime Development Office,https://www.cso.ie/webserviceclient/datasets.aspx?sp=DB_IMDO&SPtext=Irish%20Maritime%20Development%20Office
+,,Sustainable Development Authority of Ireland,https://www.cso.ie/webserviceclient/datasets.aspx?sp=DB_SEI&SPtext=Sustainable%20Energy%20Authority%20of%20Ireland
+,,Residential Tenancies Board (RTB),https://www.cso.ie/webserviceclient/datasets.aspx?sp=DB_RI&SPtext=Residential%20Tenancies%20Board%20(PRTB)
+,,Health Research Board,https://www.cso.ie/webserviceclient/datasets.aspx?sp=DB_HR&SPtext=Health%20Research%20Board
+,,Department of Housing Planning Community and Local Government,"https://www.cso.ie/webserviceclient/datasets.aspx?sp=DB_HS&SPtext=Department%20of%20Housing,%20Planning,%20Community%20and%20Local%20Government"
+,,National Roads Authority,https://www.cso.ie/webserviceclient/datasets.aspx?sp=DB_NRA&SPtext=National%20Roads%20Authority
+,,Revenue Transport Statistics,https://www.cso.ie/webserviceclient/datasets.aspx?sp=DB_RCT&SPtext=Revenue%20Transport%20Statistics
+,,Income Tax and Corporation Tax Distribution Statistics,https://www.cso.ie/webserviceclient/datasets.aspx?sp=DB_RV01&SPtext=Income%20Tax%20and%20Corporation%20Tax%20Distribution%20Statistics
+,,Road Safety Authority of Ireland Statistics,https://www.cso.ie/webserviceclient/datasets.aspx?sp=DB_RSA&SPtext=Road%20Safety%20Authority%20of%20Ireland%20Statistics
+,,Department of Health,https://www.cso.ie/webserviceclient/datasets.aspx?sp=DB_DH&SPtext=Department%20of%20Health
+,,Department of Agriculture Food and the Marine,https://www.cso.ie/webserviceclient/datasets.aspx?sp=DB_DA&SPtext=Department%20of%20Agriculture%20Food%20and%20the%20Marine
