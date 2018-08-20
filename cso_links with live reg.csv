@@ -69,6 +69,7 @@ Census,Census,2016,https://www.cso.ie/webserviceclient/datasets.aspx?sp=DB_EP&SP
 Labour Market and Earnings,Labour Market,Monthly Unemployment,https://www.cso.ie/webserviceclient/datasets.aspx?sp=DB_MU&SPtext=Monthly%20Unemployment
 ,,Labour Force Survey Quarterly Series,https://www.cso.ie/webserviceclient/datasets.aspx?sp=DB_QLF&SPtext=Labour%20Force%20Survey%20Quarterly%20Series
 ,,Live Register,https://www.cso.ie/webserviceclient/datasets.aspx?sp=DB_LR&SPtext=Live%20Register
+,,Live Register Detailed Flow Analysis,https://www.cso.ie/webserviceclient/datasets.aspx?sp=DB_LA&SPtext=Live%20Register%20Detailed%20Flow%20Analysis
 ,,Industrial Disputes,https://www.cso.ie/webserviceclient/datasets.aspx?sp=DB_ID&SPtext=Industrial%20Disputes
 ,,Quarterly National Household Survey - Main Results,https://www.cso.ie/webserviceclient/datasets.aspx?sp=DB_QN&SPtext=Quarterly%20National%20Household%20Survey
 ,,Financial Business Sector,https://www.cso.ie/webserviceclient/datasets.aspx?sp=DB_BI&SPtext=Financial%20Business%20Sector
@@ -164,4 +165,5 @@ Public Sector Statistics Network,Public Sector Statistics Network,Department of 
 ,,Revenue Transport Statistics,https://www.cso.ie/webserviceclient/datasets.aspx?sp=DB_RCT&SPtext=Revenue%20Transport%20Statistics
 ,,Income Tax and Corporation Tax Distribution Statistics,https://www.cso.ie/webserviceclient/datasets.aspx?sp=DB_RV01&SPtext=Income%20Tax%20and%20Corporation%20Tax%20Distribution%20Statistics
 ,,Road Safety Authority of Ireland Statistics,https://www.cso.ie/webserviceclient/datasets.aspx?sp=DB_RSA&SPtext=Road%20Safety%20Authority%20of%20Ireland%20Statistics
+,,Department of Health,https://www.cso.ie/webserviceclient/datasets.aspx?sp=DB_DH&SPtext=Department%20of%20Health
 ,,Department of Agriculture Food and the Marine,https://www.cso.ie/webserviceclient/datasets.aspx?sp=DB_DA&SPtext=Department%20of%20Agriculture%20Food%20and%20the%20Marine
