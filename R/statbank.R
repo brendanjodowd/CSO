@@ -9,8 +9,8 @@
 #'   \item{Section}{Sections within the themes}
 #'   \item{Subsection}{Subsections}
 #'   \item{Title}{Title of the dataset}
-#'   \item{Page.Code}{Full name of data table}
-#'   \item{Short.Code}{Code for this dataset. Use this with the get_cso function.}
+#'   \item{Page.Code}{Statbank webpage code for this dataset.}
+#'   \item{Table.Code}{Code for this dataset. Use this with the get_cso function.}
 #' }
 #' @source \url{https://www.cso.ie/webserviceclient/DatasetListing.aspx}
-"cso_database"
+"statbank"

@@ -12,7 +12,7 @@ get_cso(table_name)
 }
 %- maybe also 'usage' for other objects documented here.
 \arguments{
-  \item{table_name}{
+  \item{Table.Code}{
 A code for a CSO Statbank table. A string of length 5.
 }
 }
@@ -20,7 +20,7 @@ A code for a CSO Statbank table. A string of length 5.
 %%  ~~ If necessary, more details than the description above ~~
 }
 \value{
-A dataframe
+A tibble
 }
 \references{
 %% ~put references to the literature/web site here ~

@@ -1,10 +1,14 @@
 get_cso <- function(table_name) {
+  require(rjstat)
+  require(httr)
+  require(stringr)
   json_url <- paste("http://www.cso.ie/StatbankServices/StatbankServices.svc/jsonservice/responseinstance/",
                     table_name, sep="")
   if (httr::http_type(httr::GET(json_url)) != "application/json") {
     stop("API did not return JSON", call. = FALSE)
   }
   first.line.of.text <- readLines(json_url, n=1 , warn = FALSE)
+  print(first.line.of.text)
   if(first.line.of.text=="no active maintable id entered"){
     stop("This JSON table does not exist", call. = FALSE)
   }
