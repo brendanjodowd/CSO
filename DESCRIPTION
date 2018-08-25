@@ -10,8 +10,6 @@ Imports:
     httr,
     stringr,
     rjstat
-Suggests:
-    dplyr
 License: Unsure.
 Encoding: UTF-8
 LazyData: true
