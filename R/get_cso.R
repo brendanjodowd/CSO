@@ -1,4 +1,7 @@
 get_cso <- function(table_name) {
+  if (!require(rjstat)) install.packages('rjstat')
+  if (!require(httr)) install.packages('httr')
+  if (!require(stringr)) install.packages('stringr')
   require(rjstat)
   require(httr)
   require(stringr)

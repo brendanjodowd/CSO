@@ -4,7 +4,8 @@ Title: Explore and Import CSO Statbank Tables
 Version: 0.1.0
 Author: Brendan O'Dowd
 Maintainer: Brendan O'Dowd <brendanjodowd@gmail.com>
-Description: More about what it does (maybe more than one line)
+Description: This package includes one function for importing data tables from 
+the CSO Statbank, and a tibble containing a list of tables available on Statbank
 License: Unsure.
 Encoding: UTF-8
 LazyData: true
