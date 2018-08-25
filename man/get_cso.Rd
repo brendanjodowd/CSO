@@ -8,11 +8,11 @@ Retrieves CSO Statbank Tables
 This function retrieves named data tables from the CSO website
 }
 \usage{
-get_cso(table_name)
+get_cso(table.code)
 }
 %- maybe also 'usage' for other objects documented here.
 \arguments{
-  \item{Table.Code}{
+  \item{table.code}{
 A code for a CSO Statbank table. A string of length 5.
 }
 }

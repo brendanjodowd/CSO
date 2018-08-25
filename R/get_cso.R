@@ -1,10 +1,8 @@
-get_cso <- function(table_name) {
-  # if (!require(rjstat)) install.packages('rjstat')
-  # if (!require(httr)) install.packages('httr')
-  # if (!require(stringr)) install.packages('stringr')
+get_cso <- function(table.code) {
+
 
   json_url <- paste("http://www.cso.ie/StatbankServices/StatbankServices.svc/jsonservice/responseinstance/",
-                    table_name, sep="")
+                    table.code, sep="")
   if (httr::http_type(httr::GET(json_url)) != "application/json") {
     stop("API did not return JSON", call. = FALSE)
   }
