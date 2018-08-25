@@ -8,6 +8,7 @@ get_cso <- function(table_name) {
     stop("API did not return JSON", call. = FALSE)
   }
   first.line.of.text <- readLines(json_url, n=1 , warn = FALSE)
+  print("Here is the first line")
   print(first.line.of.text)
   if(first.line.of.text=="no active maintable id entered"){
     stop("This JSON table does not exist", call. = FALSE)
