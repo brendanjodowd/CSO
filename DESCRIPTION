@@ -12,7 +12,14 @@ Imports:
     rjstat
 Suggests:
     dplyr
-License: Unsure.
+License: The shapes in the counties and admin_counties dataframes are derived from 
+    shapefiles created by Ordnance Survey Ireland (OSi), and taken from their Open
+    Data Portal. A Creative Commons Licence applies to this data. Open Data is data 
+    that can be freely used, re-used and redistributed by anyone - subject only, 
+    at most, to the requirement that the source of the information is to attributed.
+    For more information, please see the README file associated with this package.
+    For queries or issues around the use of this data, please do not hesitate to 
+    contact me at the email address above.
 Encoding: UTF-8
 LazyData: true
 RoxygenNote: 6.1.0
