@@ -18,6 +18,7 @@
 #'   \item{hole}{Vertices assoicated with holes in county shapes}
 #'   \item{piece}{Numbers for different pieces of individual counties}
 #'   \item{County}{County Name. Can be matched to Census Data and certain other datasets.}
+#'   \item{group}{A combination of County or City name with piece number. To be used as the group option when making maps with ggplot.}
 #' }
 #' @source \url{https://data-osi.opendata.arcgis.com/}
 "counties"
