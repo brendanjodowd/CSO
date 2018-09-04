@@ -37,5 +37,8 @@ some.data$Month <- parse_date_time(some.data$Month , "%Y%m")
 some.data$Quarter <- parse_date_time(some.data$Quarter, "%Y%q")
 ```
 
+### Licensing and Maps  
+The shapes data for counties and administrative counties are derived from shapefiles produced by Ordnance Survey Ireland (OSi) and taken from their [Open Data Portal](data-osi.opendata.arcgis.com). A standard Creative Commons licence applies to this data. Open Data is data that can be freely used, re-used and redistributed by anyone - subject only, at most, to the requirement that the source of the information is to attributed. For more about the Creative Commons Licence, see [here](https://creativecommons.org/licenses/by/4.0/legalcode). For more about OSi, see [here](https://www.osi.ie/about/). 
+
 
 
