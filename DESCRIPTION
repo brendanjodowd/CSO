@@ -11,7 +11,7 @@ Imports:
     stringr,
     rjstat
 Suggests:
-    dplyr
+    dplyr,
     ggplot2
 License: The shapes in the counties and admin_counties dataframes are derived from 
     shapefiles created by Ordnance Survey Ireland (OSi), and taken from their Open
