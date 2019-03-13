@@ -3,7 +3,7 @@ CSO Package
 =========
 
 ### Get started
-Hi! This package provides a convenient means of importing CSO data tables which are stored on Statbank. To install, use the following (requires devtools):  
+Hi! This package provides a convenient means of importing CSO data tables which are stored on Statbank. To install, use the following (requires devtools package):  
 ```
 devtools::install_github("brendanjodowd/CSO")
 ``` 
