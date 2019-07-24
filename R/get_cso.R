@@ -38,5 +38,9 @@ get_cso <- function(table.code) {
     local_dataset$Month <- as.Date(local_dataset$Month)
   }
   
+  if("Year" %in% names(local_dataset)){
+    local_dataset$Year <- as.numeric(local_dataset$Year)
+  }
+  
   local_dataset
 }
