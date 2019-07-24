@@ -35,6 +35,7 @@ get_cso <- function(table.code) {
   if("Month" %in% names(local_dataset)){
     local_dataset$Month <- gsub("M" , "-" , local_dataset$Month)
     local_dataset$Month <- paste(local_dataset$Month , "-01" , sep="")
+    local_dataset$Month <- as.Date(local_dataset$Month)
   }
   
   local_dataset
