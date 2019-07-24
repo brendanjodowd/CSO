@@ -25,16 +25,7 @@ unemp.tables <- filter(statbank, str_detect(Title , "Unemployment"))
 ```
 
 ### Note on Dates
-Monthly data on Statbank has the following form (e.g.) 2012M06 for June 2016.  
-Similarly Quarterly data takes the form (e.g.) 2017Q2 for Quarter 2 in 2017.  
-In both cases I recommend that the `parse_date_time` function from the lubridate package is used.  
-**Monthly example**  
-```
-some.data$Month <- parse_date_time(some.data$Month , "%Y%m")
-```
-**Quarterly example**  
-```
-some.data$Quarter <- parse_date_time(some.data$Quarter, "%Y%q")
+In a previous version of this package, the variable "Month" was returned to the user in its original format, which was 2010M06 for June 2010. The latest version converts the string representing the month to a variable of class Date corresponding to the first of the month, so no further conversion is required of the user.
 ```
 
 ### Licensing and Maps  
