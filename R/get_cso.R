@@ -30,5 +30,10 @@ get_cso <- function(table.code) {
       colnames(local_dataset) <- substring(colnames(local_dataset) ,2)
     }
   }
+  # Adding this bit to make Month more easily converted to date. 24-7-19 
+  if("Month" %in% names(local_dataset)){
+    local_dataset$Month <- gsub("M" , "-" , local_dataset$Month)
+  }
+  
   local_dataset
 }
