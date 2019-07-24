@@ -31,8 +31,10 @@ get_cso <- function(table.code) {
     }
   }
   # Adding this bit to make Month more easily converted to date. 24-7-19 
+  # Further adjusting this to convert Month to a Date
   if("Month" %in% names(local_dataset)){
     local_dataset$Month <- gsub("M" , "-" , local_dataset$Month)
+    local_dataset$Month <- paste(local_dataset$Month , "-01" , sep="")
   }
   
   local_dataset
