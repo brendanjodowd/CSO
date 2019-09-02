@@ -25,8 +25,8 @@ unemp.tables <- filter(statbank, str_detect(Title , "Unemployment"))
 ```
 
 ### Note on Dates
-In a previous version of this package, the variable "Month" was returned to the user in its original format, which was 2010M06 for June 2010. The latest version converts the string representing the month to a variable of class Date corresponding to the first of the month, so no further conversion is required of the user.
-```
+CSO data often contains a time variable, such as 'Month', 'Quarter' or 'Year'. The function `get_cso()` converts 'Month' to type date, and 'Year' to type numerical. The variable 'Quarter' comes in as a string, and is of the form (e.g.) `2010Q1`.
+
 
 ### Licensing and Maps  
 The shapes data for counties and administrative counties are derived from shapefiles produced by Ordnance Survey Ireland (OSi) and taken from their [Open Data Portal](data-osi.opendata.arcgis.com). A standard Creative Commons licence applies to this data. Open Data is data that can be freely used, re-used and redistributed by anyone - subject only, at most, to the requirement that the source of the information is to attributed. For more about the Creative Commons Licence, see [here](https://creativecommons.org/licenses/by/4.0/legalcode). For more about OSi, see [here](https://www.osi.ie/about/). 
