@@ -20,12 +20,11 @@ devtools::install_github("brendanjodowd/CSO" )
 library(CSO)
 ```
 
-The following vignettes require a couple of additional packages:
+The following vignettes require a couple of additional packages. These are very widely used, and code written using these packages is, I think, more readable and less prone to errors.
 
 * dplyr -- Hugely useful package for data handling and manipulation. Includes the pipe: `%>%`
 * stringr -- Useful for querying and manipulating strings. 
-* ggplot2 -- Make beautiful plots
-* plotly -- Make beautiful plots interactive
+* ggplot2 -- Make nice plots
 
 ## Example using unemployment data
 
