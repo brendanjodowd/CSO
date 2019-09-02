@@ -25,7 +25,7 @@ unemp.tables <- filter(statbank, str_detect(Title , "Unemployment"))
 ```
 
 ### Note on Dates
-CSO data often contains a time variable, such as 'Month', 'Quarter' or 'Year'. The function `get_cso()` converts 'Month' to type date, and 'Year' to type numerical. The variable 'Quarter' comes in as a string, and is of the form (e.g.) `2010Q1`.
+CSO data often contains a time variable, such as 'Month', 'Quarter' or 'Year'. The function `get_cso()` converts 'Month' to type date (the first day of that month), and 'Year' to type numerical. The variable 'Quarter' comes in as a string, and is of the form (e.g.) `2010Q1`.
 
 
 ### Licensing and Maps  
