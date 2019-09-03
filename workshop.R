@@ -15,7 +15,7 @@ unemp1 <- unemp %>%
   filter(Sex=="Both sexes") %>% 
   filter(str_detect(Statistic , "Rate"))
   
-ggplot(unemployment.data1 , aes(Month , value)) + geom_point() + geom_line()
+ggplot(unemp1 , aes(Month , value)) + geom_point() + geom_line()
 
 
 unemp2 <- unemp %>% 
@@ -23,7 +23,7 @@ unemp2 <- unemp %>%
   filter(!Sex=="Both sexes") %>% 
   filter(str_detect(Statistic , "Rate"))
   
-ggplot(unemployment.data2 , aes(Month , value , colour=Sex)) + 
+ggplot(unemp2 , aes(Month , value , colour=Sex)) + 
   geom_point() + geom_line() +
   labs(x="" , y = "Unemployment rate (%)") + 
   ylim(0,20) + 
@@ -32,46 +32,41 @@ ggplot(unemployment.data2 , aes(Month , value , colour=Sex)) +
   
 ##############  PART 2 - joining datasets  ##############
   
-travel <- get_cso("TMA08")
 
-travel1 <- travel %>% 
+
+travel <- get_cso("TMA08") %>% 
   filter(Statistic=="Overseas Trips by Irish Residents (Thousand)") %>% 
   filter(Reason.for.Journey=="All reasons for journey")
 
-ggplot(travel1 , aes(Year , value )) + geom_line()
+ggplot(travel , aes(Year , value )) + geom_line()
 
 
-population <- get_cso("PEA01")
 
-population1 <- population %>% 
+population <- get_cso("PEA01") %>% 
   filter(Age.Group=="All ages" ) %>% 
   filter(Sex == "Both sexes")
 
-ggplot(population1 , aes(Year , value )) + geom_line()
+ggplot(population , aes(Year , value )) + geom_line()
 
 
 
-travel_and_population <- bind_rows(travel1 , population1) %>% 
+trips_and_pop <- bind_rows(travel , population) %>% 
   select(Year, Statistic, value)
 
-ggplot(travel_and_population , aes(Year, value, colour=Statistic)) + geom_line() +xlim(2009,2020)
+ggplot(trips_and_pop , aes(Year, value, colour=Statistic)) + geom_line() +xlim(2009,2020)
 
 
 
-travel1 <- travel %>% 
-  filter(Statistic=="Overseas Trips by Irish Residents (Thousand)") %>% 
-  filter(Reason.for.Journey=="All reasons for journey") %>% 
+travel2 <- travel %>% 
   select(value, Year) %>% 
   rename(trips = value)
 
 
-population1 <- population %>% 
-  filter(Age.Group=="All ages" ) %>% 
-  filter(Sex == "Both sexes") %>% 
+population2 <- population %>% 
   select(value, Year) %>% 
   rename(pop = value)
 
-travel_and_population <- left_join(travel1 , population1 , by="Year") %>% 
+trips_and_pop <- left_join(travel2 , population2 , by="Year") %>% 
   mutate(trips_per_person = trips/pop)
 
 
@@ -79,26 +74,25 @@ travel_and_population <- left_join(travel1 , population1 , by="Year") %>%
 ##############  PART 3 - columns  ##############
 
 
-crime <- get_cso("CJA07")
 
-crime1 <- crime %>% 
+crime <- get_cso("CJA07") %>% 
   filter(str_detect(Garda.Station , "D.M.R. Western")) %>% 
   filter(Type.of.Offence=="Burglary and related offences") %>% 
   mutate(Garda.Station = word(Garda.Station , 1 , sep=",")) %>% 
   filter(Year %in% c(2012,2014,2016))
 
-ggplot(crime1 , aes(Year , value, colour=Garda.Station)) + geom_line()
+ggplot(crime , aes(Year , value, colour=Garda.Station)) + geom_line()
 
-ggplot(crime1 , aes(Year , value , fill=Garda.Station)) + geom_col( position="dodge") + coord_flip()
+ggplot(crime , aes(Year , value , fill=Garda.Station)) + geom_col( position="dodge") + coord_flip()
 
-ggplot(crime1 , aes(Garda.Station , value, fill=factor(Year))) + geom_col(position="dodge") + coord_flip()
+ggplot(crime , aes(Garda.Station , value, fill=factor(Year))) + geom_col(position="dodge") + coord_flip()
 
 
-dublin_averages <- dublin_crime %>% 
+dublin_averages <- crime %>% 
   group_by(Garda.Station) %>% 
   summarise(Avg.Burglaries = mean(value))
 
-dublin_averages <- dublin_crime %>% 
+dublin_averages <- crime %>% 
   group_by(Garda.Station) %>% 
   mutate(Avg.Burglaries = mean(value))
 
@@ -114,14 +108,13 @@ dublin_averages <- dublin_averages %>%
 ##############  PART 3 - chloropleth  ##############
 
 
-rent <- get_cso("E1021")
 
-rent1 <- rent %>% 
+rent <- get_cso("E1021") %>% 
   filter(str_detect(Statistic, "Average")) %>% 
   filter(Census.Year=="2016") %>% 
   filter(Nature.of.Occupancy=="Rented") 
 
-rent_map_data <- right_join(rent1 , admin_counties, by="County.and.City")
+rent_map_data <- right_join(rent , admin_counties, by="County.and.City")
 
 ggplot(rent_map_data, aes(long, lat, group=group, fill=value)) + 
   geom_polygon() + coord_quickmap() 
