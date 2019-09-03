@@ -105,7 +105,7 @@ dublin_averages <- dublin_averages %>%
          )
 
 
-##############  PART 3 - chloropleth  ##############
+##############  PART 4 - chloropleth  ##############
 
 
 
