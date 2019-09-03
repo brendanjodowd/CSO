@@ -94,6 +94,23 @@ ggplot(crime1 , aes(Year , value , fill=Garda.Station)) + geom_col( position="do
 ggplot(crime1 , aes(Garda.Station , value, fill=factor(Year))) + geom_col(position="dodge") + coord_flip()
 
 
+dublin_averages <- dublin_crime %>% 
+  group_by(Garda.Station) %>% 
+  summarise(Avg.Burglaries = mean(value))
+
+dublin_averages <- dublin_crime %>% 
+  group_by(Garda.Station) %>% 
+  mutate(Avg.Burglaries = mean(value))
+
+dublin_averages <- dublin_averages %>% 
+  mutate(Status = case_when(
+    value > Avg.Burglaries ~ "Above",
+    value < Avg.Burglaries ~ "Below",
+    value == Avg.Burglaries ~ "Same"
+    )
+         )
+
+
 ##############  PART 3 - chloropleth  ##############
 
 
