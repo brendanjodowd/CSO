@@ -1,7 +1,7 @@
 ---
 title: "CSO Package for R"
 author: "Brendan O'Dowd"
-date: "03 September, 2019"
+date: "04 September, 2019"
 output: 
   html_document: 
     keep_md: true 
@@ -47,6 +47,9 @@ Each Statbank table has a five character code, and this is used as the argument 
 unemp <- get_cso("MUM01")
 ```
 
+<details>
+  <summary>Tip: Using unique() to view distinct elements in a column </summary>
+
 You can have a quick look at the data frame `unemployment.data` using `head(unemployment.data)`. It contains categorical variables for 'Age.group', 'Sex' and 'Statistic'. Then there is a variable called 'Month', and the numerical data itself is stored in a variable called 'value'. 
 
 If I'm unsure as to what categories are present in each variable, I usually use the function `unique()`, e.g.:
@@ -64,11 +67,13 @@ unique(unemp$Statistic)
 ## [2] "Seasonally Adjusted Monthly Unemployment Rate (%)"
 ```
 
+</details>
+
 The time variables found in CSO Statbank tables include Year, Quarter and Month. Month comes in as a date, while Year arrives as a simple numeric variable. Quarter is of the form (e.g.) 1996Q1.
 
 ### Filtering data
 
-Let's use `filter()` to examine the unemployment rate for both sexes, among 25 to 74 year-olds. To restrict the variable Statistic to just 'Seasonally Adjusted Monthly Unemployment Rate (%)', we could of course filter Statistic equal to this string. Instead, to save space, I use the function `str_detect` with the phrase "Rate" which appears in just one of the two categories of Statistic. 
+Let's use `filter()` to examine the unemployment rate for both sexes, among 15 to 74 year-olds. To restrict the variable Statistic to just 'Seasonally Adjusted Monthly Unemployment Rate (%)', we could of course filter Statistic equal to this string. Instead, to save space, I use the function `str_detect` with the phrase "Rate" which appears in just one of the two categories of Statistic. 
 
 We can also use `select()` to choose only the variables 'Month' and 'value'.
 
@@ -245,7 +250,7 @@ head(dublin_averages_2)
 ## 6 Cabra           2016    78           121
 ```
 
-We can now make a new variable called 'Status', equal to 'Above', 'Below' or 'Same' depending on the relationship between each value and the average for that Station. Here we will use the function `case_when`. Very often you see a different function: `if_else()` (or `ifelse()` in base R). I don't like `if_else()` because if you have more than two options you end up with very complicated nested functions, whereas with `case_when` the different options are just separated by commas. If there is only one condition, I would probably use `mutate_if()`.
+We can now make a new variable called 'Status', equal to 'Above', 'Below' or 'Same' depending on the relationship between each value and the average for that Station. Here we will use the function `case_when`. Very often you see a different function: `if_else()` (or `ifelse()` in base R). I don't like `if_else()`if there are more than two options because you end up with very complicated nested functions, whereas with `case_when` the different options are neatly separated by commas. 
 
 
 ```r
