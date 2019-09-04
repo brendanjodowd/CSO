@@ -47,8 +47,11 @@ Each Statbank table has a five character code, and this is used as the argument 
 unemp <- get_cso("MUM01")
 ```
 
+
+
 <details>
-  <summary>Tip: Using unique() to view distinct elements in a column </summary>
+  <summary><span style="color:blue">Tip: Using unique() to view distinct elements in a column </span></summary>
+<span style="color:blue">
 
 You can have a quick look at the data frame `unemployment.data` using `head(unemployment.data)`. It contains categorical variables for 'Age.group', 'Sex' and 'Statistic'. Then there is a variable called 'Month', and the numerical data itself is stored in a variable called 'value'. 
 
@@ -66,8 +69,9 @@ unique(unemp$Statistic)
 ## [1] "Seasonally Adjusted Monthly Unemployment (Thousand)"
 ## [2] "Seasonally Adjusted Monthly Unemployment Rate (%)"
 ```
-
+</span>
 </details>
+
 
 The time variables found in CSO Statbank tables include Year, Quarter and Month. Month comes in as a date, while Year arrives as a simple numeric variable. Quarter is of the form (e.g.) 1996Q1.
 
