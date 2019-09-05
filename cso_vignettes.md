@@ -1,7 +1,7 @@
 ---
 title: "CSO Package for R"
 author: "Brendan O'Dowd"
-date: "04 September, 2019"
+date: "05 September, 2019"
 output: 
   html_document: 
     keep_md: true 
@@ -48,10 +48,11 @@ unemp <- get_cso("MUM01")
 ```
 
 
+The time variables found in CSO Statbank tables include Year, Quarter and Month. Month comes in as a date, while Year arrives as a simple numeric variable. Quarter is of the form (e.g.) 1996Q1.
+
 
 <details>
-  <summary><span style="color:blue">Tip: Using unique() to view distinct elements in a column </span></summary>
-<span style="color:blue">
+  <summary>Tip: Using unique() to view distinct elements in a column </summary>
 
 You can have a quick look at the data frame `unemployment.data` using `head(unemployment.data)`. It contains categorical variables for 'Age.group', 'Sex' and 'Statistic'. Then there is a variable called 'Month', and the numerical data itself is stored in a variable called 'value'. 
 
@@ -69,17 +70,15 @@ unique(unemp$Statistic)
 ## [1] "Seasonally Adjusted Monthly Unemployment (Thousand)"
 ## [2] "Seasonally Adjusted Monthly Unemployment Rate (%)"
 ```
-</span>
+
 </details>
 
 
-The time variables found in CSO Statbank tables include Year, Quarter and Month. Month comes in as a date, while Year arrives as a simple numeric variable. Quarter is of the form (e.g.) 1996Q1.
 
 ### Filtering data
 
-Let's use `filter()` to examine the unemployment rate for both sexes, among 15 to 74 year-olds. To restrict the variable Statistic to just 'Seasonally Adjusted Monthly Unemployment Rate (%)', we could of course filter Statistic equal to this string. Instead, to save space, I use the function `str_detect` with the phrase "Rate" which appears in just one of the two categories of Statistic. 
+Let's use `filter()` to examine the unemployment rate for both sexes, among 15 to 74 year-olds. To restrict the variable Statistic to just 'Seasonally Adjusted Monthly Unemployment Rate (%)', we could use `filter(Statistic=="Seasonally Adjusted Monthly Unemployment Rate (%)")`, but this is a bit cumbersome. Instead, try using `str_detect` with the phrase "Rate" which appears in just one of the two categories of Statistic. 
 
-We can also use `select()` to choose only the variables 'Month' and 'value'.
 
 ```r
 unemp1 <- unemp %>% 
@@ -119,12 +118,12 @@ Try using `+ facet_wrap(vars(Sex))` to produce an array of plots. One nice thing
 
 ### Limits and labels
 
-There are a couple of ways to set limits on the dates in the plot. One way is to filter the data itself using another `filter()` statement, like `filter(Month >= as.Date("2007-01-01"))`, which will provide output only since 2007. Note the use of `as.Date()`, and that the date is expressed in the form YYYY-MM-DD, which is the default for the `as.Date()` function. Another way is to use `+ xlim()` in the ggplot statement, as shown in the following example. I'm also specifying y-limits of 0 to 20 here using ` + ylim(0,20)`. 
+There are a couple of ways to set limits on the dates in the plot. One way is to filter the data itself using another `filter()` statement, like `filter(Month >= as.Date("2007-01-01"))`, which will provide output only since 2007. Note the use of `as.Date()`, and that the date is expressed in the form YYYY-MM-DD, which is the default for the `as.Date()` function. Another way is to use `+ xlim()` in the ggplot statement, as shown in the following example. I'm also specifying y-limits of 0 to 17 here using ` + ylim(0,17)`. 
 
 ```r
 ggplot(unemp2, aes(Month, value, colour=Sex)) + geom_line() +
   xlim(as.Date("2007-01-01"),as.Date("2010-01-01")) + 
-  ylim(0,20)
+  ylim(0,17)
 ```
 
 ![](cso_vignettes_files/figure-html/ggplot_dates-1.png)<!-- -->
@@ -141,6 +140,72 @@ ggplot(unemp2, aes(Month, value, colour=Sex)) + geom_line() + geom_point(size=2)
 
 ![](cso_vignettes_files/figure-html/ggplot_labels-1.png)<!-- -->
 
+## Vignette 2 -- Appending and Joining Datasets
+
+__*Topics introduced*__
+
+* Appending datasets using `bind_rows()`
+* Joining datasets using `left_join()`
+* Creating a new variable using `mutate()`
+
+We're going to generate two datasets, one on population and the other on overseas travel by Irish residents. These will be used to demonstrate appending and joining datasets. I'm using `glimpse()` here, which is a function in dplyr, to have a quick look at the data. 
+
+
+
+```r
+travel <- get_cso("TMA08") %>% 
+  filter(Statistic=="Overseas Trips by Irish Residents (Thousand)") %>% 
+  filter(Reason.for.Journey=="All reasons for journey")
+
+population <- get_cso("PEA01") %>% 
+  filter(Age.Group=="All ages" ) %>% 
+  filter(Sex == "Both sexes")
+```
+
+
+|Reason.for.Journey      | Year|Statistic                                    | value|
+|:-----------------------|----:|:--------------------------------------------|-----:|
+|All reasons for journey | 2009|Overseas Trips by Irish Residents (Thousand) |  7021|
+|All reasons for journey | 2010|Overseas Trips by Irish Residents (Thousand) |  6660|
+|All reasons for journey | 2011|Overseas Trips by Irish Residents (Thousand) |  6293|
+|All reasons for journey | 2012|Overseas Trips by Irish Residents (Thousand) |  6326|
+|All reasons for journey | 2013|Overseas Trips by Irish Residents (Thousand) |  6323|
+|All reasons for journey | 2014|Overseas Trips by Irish Residents (Thousand) |  6514|
+
+
+
+|Age.Group |Sex        | Year|Statistic                                          |  value|
+|:---------|:----------|----:|:--------------------------------------------------|------:|
+|All ages  |Both sexes | 1950|Population Estimates (Persons in April) (Thousand) | 2969.0|
+|All ages  |Both sexes | 1951|Population Estimates (Persons in April) (Thousand) | 2960.6|
+|All ages  |Both sexes | 1952|Population Estimates (Persons in April) (Thousand) | 2952.9|
+|All ages  |Both sexes | 1953|Population Estimates (Persons in April) (Thousand) | 2949.0|
+|All ages  |Both sexes | 1954|Population Estimates (Persons in April) (Thousand) | 2941.2|
+|All ages  |Both sexes | 1955|Population Estimates (Persons in April) (Thousand) | 2920.9|
+
+Let's append these using `bind_rows()`:
+
+
+```r
+trips_and_pop <- bind_rows(travel , population)
+```
+
+|Reason.for.Journey      | Year|Statistic                                          |  value|Age.Group |Sex        |
+|:-----------------------|----:|:--------------------------------------------------|------:|:---------|:----------|
+|All reasons for journey | 2009|Overseas Trips by Irish Residents (Thousand)       | 7021.0|NA        |NA         |
+|All reasons for journey | 2010|Overseas Trips by Irish Residents (Thousand)       | 6660.0|NA        |NA         |
+|All reasons for journey | 2011|Overseas Trips by Irish Residents (Thousand)       | 6293.0|NA        |NA         |
+|All reasons for journey | 2012|Overseas Trips by Irish Residents (Thousand)       | 6326.0|NA        |NA         |
+|All reasons for journey | 2013|Overseas Trips by Irish Residents (Thousand)       | 6323.0|NA        |NA         |
+|All reasons for journey | 2014|Overseas Trips by Irish Residents (Thousand)       | 6514.0|NA        |NA         |
+|All reasons for journey | 2015|Overseas Trips by Irish Residents (Thousand)       | 6965.0|NA        |NA         |
+|All reasons for journey | 2016|Overseas Trips by Irish Residents (Thousand)       | 7405.0|NA        |NA         |
+|All reasons for journey | 2017|Overseas Trips by Irish Residents (Thousand)       | 7939.0|NA        |NA         |
+|All reasons for journey | 2018|Overseas Trips by Irish Residents (Thousand)       | 8276.0|NA        |NA         |
+|NA                      | 1950|Population Estimates (Persons in April) (Thousand) | 2969.0|All ages  |Both sexes |
+|NA                      | 1951|Population Estimates (Persons in April) (Thousand) | 2960.6|All ages  |Both sexes |
+|NA                      | 1952|Population Estimates (Persons in April) (Thousand) | 2952.9|All ages  |Both sexes |
+|NA                      | 1953|Population Estimates (Persons in April) (Thousand) | 2949.0|All ages  |Both sexes |
 
 
 ## Vignette 3 -- Columns and Creating new variables
