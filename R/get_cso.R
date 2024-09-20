@@ -2,7 +2,7 @@ get_cso <- function(table.code) {
 
 
   json_url <- paste("https://ws.cso.ie/public/api.restful/PxStat.Data.Cube_API.ReadDataset/",
-                    table.code, "/JSON-stat/2.0/", sep="")
+                    table.code, "/JSON-stat/2.0/en", sep="")
   if (httr::http_type(httr::GET(json_url)) != "application/json") {
     stop("API did not return JSON", call. = FALSE)
   }
